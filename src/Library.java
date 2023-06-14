@@ -18,7 +18,7 @@ import java.util.Scanner;
 import java.time.LocalDate;
 import java.time.*;
 
-public class SQL_Test_1
+public class Library
 {
 	//The JDBC connection URL to allow for Windows Integrated Authentication:
 	private static final String dbURL = "jdbc:sqlserver://localhost;databaseName=PublicLibrary;integratedSecurity=true;trustServerCertificate=true";

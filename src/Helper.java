@@ -1,9 +1,7 @@
 // Sample program to demonstrate rudimentary database access using SQL Server in the Library example
 //
 // Date: 4/11/2023
-//
-// Author: Larry Thomas, University of Toledo.  (C) 2020, 2022, 2023, LarryThomas.  All Rights Reserved.
-//
+
 // REQUIRES THE FOLLOWING:
 
 import java.sql.Connection;
@@ -14,7 +12,7 @@ import java.sql.Statement;
 import java.util.Scanner;
 
 
-public class SQL_Test_2
+public class Helper
 {
 	//The JDBC connection URL to allow for Windows Integrated Authentication:
 	private static final String dbURL = "jdbc:sqlserver://localhost;databaseName=PublicLibrary;integratedSecurity=true;trustServerCertificate=true";
